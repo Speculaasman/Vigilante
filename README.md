@@ -4,7 +4,7 @@ EEG project Team HART '25
 1. Download the Data
 ⚠️ Note: The dataset is not included in this repository due to licensing and file size limits.
 
-Go to our team's [Notion Page]((https://www.notion.so/teamhart/Vigilante-2b2096c92b6e80179cbaf98ae466af2f)) and download drozy_data.zip.
+Go to our team's [Notion Page](https://www.notion.so/teamhart/Vigilante-2b2096c92b6e80179cbaf98ae466af2f) and download drozy_data.zip.
 
 Unzip the file inside this project folder.
 
@@ -15,6 +15,19 @@ Vigilante/
 ├── models/
 └── :INSERT_DATA_FOLDER:/              <-- Move the drozy_data folder under the ":INSERT_DATA_FOLDER:" folder 
     └── drozy_data/
+        ├── KSS.txt
+        ├── 1-1.edf
+        ├── 1-2.edf
+        └── ... (rest of the files)
+
+Vigilante/
+├── src/
+│   ├── train_full.py
+│   └── predict.py
+├── models/
+├── .gitignore
+└── data/                   <-- Create this "data" folder if it doesn't exist
+    └── drozy/              <-- Unzip the data here
         ├── KSS.txt
         ├── 1-1.edf
         ├── 1-2.edf
