@@ -10,6 +10,7 @@ Unzip the file inside this project folder.
 
 Ensure your folder structure looks exactly like this:
 
+```
 Vigilante/
 ├── src/
 ├── models/
@@ -19,19 +20,8 @@ Vigilante/
         ├── 1-1.edf
         ├── 1-2.edf
         └── ... (rest of the files)
+```
 
-Vigilante/
-├── src/
-│   ├── train_full.py
-│   └── predict.py
-├── models/
-├── .gitignore
-└── data/                   <-- Create this "data" folder if it doesn't exist
-    └── drozy/              <-- Unzip the data here
-        ├── KSS.txt
-        ├── 1-1.edf
-        ├── 1-2.edf
-        └── ... (rest of the files)
 
 3. Run the Training
 Once the data is in place, run the training script to build the model
