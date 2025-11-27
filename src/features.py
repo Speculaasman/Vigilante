@@ -1,7 +1,7 @@
 # src/features.py
 import mne
 import numpy as np
-from . import config  # Imports variables from config.py in the same folder
+import config  # Imports variables from config.py in the same folder
 
 def extract_features_from_file(file_path):
     """

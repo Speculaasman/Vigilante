@@ -12,7 +12,7 @@ from features import extract_features_from_file
 # --- PATH SETUP ---
 # Get the root directory of the project
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE_DIR, 'data', 'drozy') # Expects data/drozy/
+DATA_DIR = os.path.join(BASE_DIR, 'INSERT_DATA_FOLDER', 'drozy_data') # Expects data/drozy/
 KSS_PATH = os.path.join(DATA_DIR, 'KSS.txt')
 MODEL_PATH = os.path.join(BASE_DIR, 'models', 'drowsiness_kss_model.pkl')
 
