@@ -25,3 +25,9 @@ Vigilante/
 
 ## 2. Run the Training 
 Once the data is in place, run the training script to build the model
+
+<!-- badges: start -->
+![Main Language](https://img.shields.io/badge/Language-Python_3.14.0-blue?logo=python)
+![License](https://img.shields.io/badge/Copyright-@Speculaasman_2025-red)
+![GitHub Status](https://img.shields.io/badge/GitHub-Vigilante-yellow?logo=github&logoColor=white)
+<!-- badges: end -->
