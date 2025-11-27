@@ -14,7 +14,7 @@ Ensure your folder structure looks exactly like this:
 Vigilante/
 ├── src/
 ├── models/
-└── :INSERT_DATA_FOLDER:/              <-- Move the drozy_data folder under the ":INSERT_DATA_FOLDER:" folder 
+└── INSERT_DATA_FOLDER/              <-- Move the drozy_data folder under the "INSERT_DATA_FOLDER" folder 
     └── drozy_data/
         ├── KSS.txt
         ├── 1-1.edf
