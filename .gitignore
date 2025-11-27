@@ -1,0 +1,17 @@
+# Ignore the specific data folder
+INSERT_DATA_FOLDER/
+
+# Ignore large data files anywhere in the project
+*.edf
+*.bdf
+*.zip
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+
+# Ignore trained models (optional, if they are too big)
+models/*.pkl
